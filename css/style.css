@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content input, .content select, .content button, .filter select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+#addExpense{
+    background-color: rgb(37, 150, 37);
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #ddd;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.total span {
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.total{
+    margin: 5px;
+}
